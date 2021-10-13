@@ -213,10 +213,17 @@ a{
     background: rgba(85, 206, 236,0.2);
     margin-right: 20px;
     border-radius: 10px;
+        
+}
+.fing-1 i:hover{
+    color: rgb(255, 255, 255);
+    background: blue; 
+    transition-duration: 0.5s;
 }
 .fing-2{
     float: left;
 }
+
 .fing-2 h1{
     font-size: 20px;
 }
