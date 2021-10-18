@@ -213,6 +213,7 @@ a{
     background: rgba(85, 206, 236,0.2);
     margin-right: 20px;
     border-radius: 10px;
+    transition: all 0.5s;
         
 }
 .fing-1 i:hover{
@@ -363,6 +364,7 @@ a{
     border: 1px solid transparent;
     border-radius: 10px;
     font-weight: 700;
+    transition: all 0.5s;
 }
 .btna :nth-child(1){
     background-color: blue;
@@ -397,6 +399,43 @@ a{
 }
 .tm-1 img{
     width: 100%;
+}
+.box2{
+    width: 90%;
+    height: 192px;
+    background-color: rgb(0 0 0 / 60%);
+    /* opacity: 46%; */
+    margin-top: -100px;
+    margin-left: 20px;
+    border-radius: 8px;
+}
+.lakha-box{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    opacity: 100%;
+    padding-top: 17px;
+}
+.lakha-box h4{
+    font-size: 36px;
+
+}
+.lakha-box h3{
+    font-size: 23px;
+    font-style: italic;
+}
+.lakha-box h3 p{
+    margin-top: -25px;
+}
+.lakha-box h3 :nth-child(2){
+    text-decoration: underline;
+}
+.io{
+    margin-top: 30px;
+}
+.io i{
+    margin-left: 11px;
+    font-size: 27px;
+}
 }
 
 /* list */
