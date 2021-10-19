@@ -9,7 +9,15 @@ a{
     text-decoration: none;
     color: black;
 }
+.sty{
+    position: fixed;
+    top: 0;
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px -7px 22px black;
 
+}
 
 /* top topber */
 .top-topber{
@@ -128,26 +136,27 @@ a{
     font-size: 20px;
 }
 .nav-link{
-    margin-right: 12px;
+    margin-right: 10px;
 }
-
 .fi-logo{
     width: 50%;
 }
-.navbar{
-    height: 80px;
-     position:static;
-}
+
+
+/* hero */
+
+
 .hero{
     background:url(./slite-1\ copy.png);
     opacity: 1990%;
     height: 600px;
     width: 100%;
-    padding-top:146px ;
+    padding-top:236px ;
     color: white;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 200px;
 }
 .hero h1{
     color: white;
@@ -161,9 +170,9 @@ a{
     margin-top: 30px;
 }
 .hero button{
-           font-family: "Raleway", sans-serif;
-    font-weight: 500;
-    font-size: 14px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
     letter-spacing: 1px;
     display: inline-block;
     padding: 12px 32px;
@@ -213,7 +222,7 @@ a{
     background: rgba(85, 206, 236,0.2);
     margin-right: 20px;
     border-radius: 10px;
-    transition: all 0.5s;
+    transition: 0.5s;
         
 }
 .fing-1 i:hover{
@@ -234,13 +243,16 @@ a{
 .box{
     height: 100%;
     background-color: rgb(250, 250, 250);
-    padding: 20px;
-    box-shadow:  5px 5px 10px  rgb(107, 102, 102);
+    padding: 41px;
+    box-shadow: 0px 1px 17px 6px rgb(158 154 154);
     margin-top: 50px;
+    border-radius: 8px;
 }
 .carda{
     margin-top: 70px ;
 }
+/* card */
+
 .card-row .col-4{
     padding: 10px;
     background-color: white;
@@ -282,25 +294,28 @@ a{
     padding-top: 70px;
     
 }
-.num .co-3{
-    box-shadow:  2px 2px 10px  rgb(158, 154, 154);
-    width: 23%;
+.num .co-2{
+    box-shadow: 1px 5px 20px 9px rgb(158 154 154);
     background-color: white;
-    
 }
-.co-3 h1{
+.fff-1{
+    margin-left: 41px;
+}
+.ff-3{
+    margin-right: 100px;
+}
+.co-2{
+    border-radius: 20px;
+}
+.co-2 h1{
     padding-top: 30px;
     color: rgb(15, 64, 199);
     font-weight: bolder;
 }
-.co-3 h4{
+.co-2 h4{
     padding-bottom: 30px;
 
 }
-.cols-3a{
-    margin-right: 35px;
-}
-
 
 /* into  */
 
@@ -331,7 +346,8 @@ a{
     border: 1px solid white;
     border-radius: 50%;
     padding: 30px;
-    box-shadow:  3px 3px 20px  rgb(107, 102, 102);
+    box-shadow: 0px 1px 17px 3px rgb(158 154 154);
+
 }
 .title h1{
     font-size: 30px;
@@ -364,7 +380,7 @@ a{
     border: 1px solid transparent;
     border-radius: 10px;
     font-weight: 700;
-    transition: all 0.5s;
+    transition: 0.3s;
 }
 .btna :nth-child(1){
     background-color: blue;
@@ -397,45 +413,72 @@ a{
 .team p{
     text-align: center;
 }
+
+.tmm-1{
+    margin-left: 94px;
+    
+}
+.tm-1{
+    margin-right: 80px;
+}
 .tm-1 img{
     width: 100%;
+    
 }
 .box2{
     width: 90%;
-    height: 192px;
+    height: 85px;
     background-color: rgb(0 0 0 / 60%);
     /* opacity: 46%; */
-    margin-top: -100px;
-    margin-left: 20px;
+    margin-top: -46px;
+    margin-left: 104px;
     border-radius: 8px;
 }
 .lakha-box{
     text-align: center;
     color: rgb(255, 255, 255);
     opacity: 100%;
-    padding-top: 17px;
+    padding-top: 11px;
 }
 .lakha-box h4{
-    font-size: 36px;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
 
 }
+.lakha-box h5{
+    margin: 0;
+    padding: 0;
+}
 .lakha-box h3{
-    font-size: 23px;
+    font-size: 10px;
     font-style: italic;
+    margin: 0;
+    padding: 0;
 }
-.lakha-box h3 p{
-    margin-top: -25px;
-}
-.lakha-box h3 :nth-child(2){
-    text-decoration: underline;
-}
+
+
 .io{
-    margin-top: 30px;
+    margin-top: 2px;
 }
 .io i{
     margin-left: 11px;
-    font-size: 27px;
+    font-size: 10px;
 }
+.tm-2{
+    margin-right: 80px;
+}
+.tt1{
+    margin-right: 81px;
+}
+.tt2{
+    margin-right: 80px;
+}
+.tt3{
+    margin-right: 79px;
+}
+.tt4{
+    margin-right: 1px;
 }
 
 /* list */
@@ -464,11 +507,22 @@ a{
 }
 
 /* contact-area */
+.ccc-1{
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.cc-1{
+    border: 2px solid transparent;
+    border-radius: 10px;
+    margin-right: 35px;
+}
 .contact-area{
     padding-top: 20px;
 }
 .contact-area h1{
     text-align: center;
+    color: rgb(100, 97, 93);
 }
 .cc-1 i{
     margin-top: 20px;
@@ -481,23 +535,14 @@ a{
 }
 .ccc-1{
     margin-top: 30px;
+    margin-left: 20px;
     text-align: center;
 }
 .cc-1{
-    width: 30%;
     box-shadow:  3px 3px 20px  rgb(107, 102, 102);
 }
-.cc-2{
-    margin-right: 39px;
-    width: 20%;
-    margin-left: 14px;
-}
-.cc-3{
-    width: 51%;
-}
-.cc-4{
-    width: 20%;
-}
+
+
 
 /* form */
 
@@ -506,7 +551,9 @@ a{
     padding: 30px 10px;
     text-align: center;
     margin-top: 50px;
-     box-shadow:  3px 3px 20px  rgb(107, 102, 102);
+    box-shadow:  3px 3px 20px  rgb(107, 102, 102);
+    border: 2px solid transparent;
+    border-radius: 8px;
 }
 .nam{
     padding-left: 11px ;
@@ -544,9 +591,10 @@ a{
     height: 44px;
     border: 1px solid transparent;
     margin-top: 30px;
-    background-color: rgb(65, 65, 235);
+    background-color: rgb(56 56 255);
     color: white;
     font-weight: 700;
+    border-radius: 12px;
 }
 
 /* footer */
@@ -567,7 +615,7 @@ a{
 }
 .footer h2{
     font-size: 20px;
-    font-weight: 400;
+    font-weight: bolder;
     margin-bottom: 30px;
 }
 .fpp-1{
